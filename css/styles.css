@@ -1,0 +1,98 @@
+
+
+.container {
+	max-width: 800px;
+	margin: 20px auto 30px auto;
+	background-color: deepskyblue;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.container h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.active{
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 4px solid orange;
+	border-radius: 25px;
+	width: 10%;
+	height: 50px;
+	outline: none;
+	font-size: 25px;
+}
+.hide {
+	display: none;
+}
+
+
+#searchIcon {
+	display: block;
+	margin: 20px auto 0 auto;
+	font-size: 50px;
+	color: orange;
+	cursor: pointer;
+}
+
+.cross {
+	font-size: 30px;
+	color: orange;
+	cursor: pointer;
+}
+
+.randomItem {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#searchContent {
+	list-style: none;
+	padding-left: 0;
+	text-align: left;
+
+}
+
+
+#searchContent li {
+	width:80%;
+	background-color:rgba(255,255,255,.7);
+	border: 1px solid orange;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+#searchContent li span {
+	display: block;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	text-indent: 2em;
+	font-style: italic;
+}
+
+#searchContent li span.litodo {
+background-color: orange;
+color: white;
+}
+
+#searchContent li a {
+	color: black;
+	text-decoration: none;
+	margin-bottom:5px ;
+}
+
+#searchContent li a.atodo {
+	text-decoration:underline;
+	color: orangered;
+}
